@@ -1,7 +1,11 @@
 # How to use this file:
 # https://docs.microsoft.com/en-us/powershell/scripting/dsc/quickstarts/website-quickstart?view=powershell-7
+#
+# To get names of other Windows Features run:
+#   Get-WindowsFeature | Out-GridView
+#
 
-Configuration WebsiteTest {
+Configuration EnsureIISandAspNet45 {
 
     # Import the DSC module 
     Import-DscResource -ModuleName PsDesiredStateConfiguration
