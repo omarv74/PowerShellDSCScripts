@@ -1,3 +1,6 @@
+# How to use this file:
+# https://docs.microsoft.com/en-us/powershell/scripting/dsc/quickstarts/website-quickstart?view=powershell-7
+
 Configuration WebsiteTest {
 
     # Import the DSC module 
